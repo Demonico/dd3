@@ -4,12 +4,12 @@ from common import ExampleInput
 class Solution:
     @staticmethod
     def two_sum(nums, target):
-        hmap = {}
+        compliments = {}
 
         for i, num in enumerate(nums):
-            if num in hmap:
-                return [hmap[num], i]
-            hmap[target - num] = i
+            if num in compliments:
+                return [compliments[num], i]
+            compliments[target - num] = i
         print(hmap.items())
         return []
 
@@ -19,20 +19,19 @@ if __name__ == '__main__':
     test_case2 = ExampleInput(nums=[3,2,4], target=6)
     test_case3 = ExampleInput(nums=[3,3], target=6)
     test_case4 = ExampleInput(nums=[-1,-2,-3,-4,-5], target=-8)
-    solution = Solution()
 
-    test_result1 = solution.two_sum(test_case1.nums, test_case1.target)
+    test_result1 = Solution.two_sum(test_case1.nums, test_case1.target)
     print(test_result1)
     assert test_result1 == [0,1]
 
-    test_result2 = solution.two_sum(test_case2.nums, test_case2.target)
+    test_result2 = Solution.two_sum(test_case2.nums, test_case2.target)
     print(test_result2)
     assert test_result2 == [1,2]
 
-    test_result3 = solution.two_sum(test_case3.nums, test_case3.target)
+    test_result3 = Solution.two_sum(test_case3.nums, test_case3.target)
     print(test_result3)
     assert test_result3 == [0,1]
 
-    test_result4 = solution.two_sum(test_case4.nums, test_case4.target)
+    test_result4 = Solution.two_sum(test_case4.nums, test_case4.target)
     print(test_result4)
     assert test_result4 == [2,4]
