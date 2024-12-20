@@ -16,6 +16,7 @@ However, if any topic starts to feel "too big" I will move that topic to it's ow
 - [Big-O Notation](#topic-big-o-notation)
 - [HashTable](#topic-hashtable)
 - [Linked Lists](#topic-linked-lists)
+- [System Design Fundamentals](#topic-system-design-fundamentals)
 
 ### References
 
@@ -158,14 +159,52 @@ print(a >> 1)  # Output: 5 (0101 in binary)
         attach the remaining node(s) to the end of the new list
 ```
 
+## Topic: System Design Fundamentals
+
+My thoughts based on lectures and other resources mentioned.
+
+### System Design Phases
+
+Times are suggestions but time management is very important.
+
+1. Requirements gathering < 10 min
+2. Working Solution < 20 min
+3. Deep Dives < 20 Min
+4. Wrap up ~ 5 min
+
+### Key Points to Remember
+
+- Have a working solution before you optimize
+- Agree with interviewer on basic design
+- Draw a high level diagram ASAP
+- Draw the user flow
+- Don't present DB schema as API schema
+- Front End design should be similar but talk about state rather than DB Schema
+- Drive the interviewer, this is a positive signal to the interviewer
+- Make a note of deep dive topics to come back to
+    - It is also a good idea to have topics you won't be talking about
+- Time Management
+    - Ask for a hint such as "Did I miss anything?" instead of "What are the reqs?"
+
+### Requirements gathering
+
+You need to gather Functional and Non-Functional requirements.
+Non-Functional requirements are the so called "ilities" i.e. scalability, availability, reliability, etc.
+Functional requirements answer questions about use cases, features and scope.
+
 ## References
 
 ### Introduction to Algorithms 4th Ed
 
 * by Cormen et. al.
-* Abbreviated as ItA
+* Abbreviated as #ItA
 
 ### Cracking the Coding Interview 6th ed.
 
 * Gayle Laakmann McDowell
-* Abbreviated as CtCI
+* Abbreviated as #CtCI
+
+### System Design Interview – An insider's guide
+
+* By Alex Xu
+* Abbreviated as #SDI

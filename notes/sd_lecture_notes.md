@@ -1,4 +1,15 @@
-# Outco System Design Lecture Notes
+# System Design Lecture Notes
+
+<!-- TOC -->
+
+* [System Design Lecture Notes](#system-design-lecture-notes)
+    * [Lecture 1: How to System Design](#lecture-1-how-to-system-design)
+        * [Who gets asked these questions?](#who-gets-asked-these-questions)
+        * [What's the point of the system design interview?](#whats-the-point-of-the-system-design-interview)
+        * [How to answer a SD question](#how-to-answer-a-sd-question)
+            * [Written in the lecture video](#written-in-the-lecture-video)
+
+<!-- TOC -->
 
 ## Lecture 1: How to System Design
 
@@ -36,7 +47,7 @@ Important sounding off-handed statements
 - Make a note of deep dive topics to come back to e.g. caching
 - Driving the interview is a positive signal
 
-Written in the lecture video
+#### Written in the lecture video
 
 - Resuirements gathering (< 10 min)
     - Functional reqs
@@ -80,7 +91,6 @@ Written in the lecture video
                 - AP
                 - Which part of the system is CP or AP
                 - Still need to discuss the missing acronym
-
 - Working solution (< 20 min)
     - **Agree with interviewer on basic design**
     - **Draw a High Level Diagram as soon as possible**

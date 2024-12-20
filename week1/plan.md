@@ -14,7 +14,7 @@
 ### Afternoon: Basics of System Design
 
 1. [ ] Read the introduction to *Grokking the System Design Interview*.
-2. [x] Watch Outco’s video on “How to System Design”
+2. [x] Watch lecture video on “How to System Design”
 3. [x] Take notes on:
     - [x] Interview Phases
     - [x] Phase Details
@@ -71,7 +71,7 @@
 
 ### Afternoon: Caching
 
-1. [ ] Watch Outco’s video on caching.
+1. [ ] Watch video on caching.
 2. [ ] Read the section on caching in *Grokking the System Design Interview*.
 3. [ ] Design a basic caching system with an eviction policy (e.g., LRU Cache) on your whiteboard.
 
@@ -95,7 +95,7 @@
 
 ### Afternoon: Databases
 
-1. [ ] Watch Outco’s video on SQL vs. NoSQL databases.
+1. [ ] Watch video on SQL vs. NoSQL databases.
 2. [ ] Read the chapter on databases in *Grokking the System Design Interview*.
 3. [ ] Create a comparison table for SQL and NoSQL databases in your notes.
 
