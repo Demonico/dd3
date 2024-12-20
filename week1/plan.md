@@ -14,10 +14,10 @@
 ### Afternoon: Basics of System Design
 
 1. [ ] Read the introduction to *Grokking the System Design Interview*.
-2. [ ] Watch Outco’s video on “Scalability Basics.”
-3. [ ] Take notes on:
-    - [ ] Load balancers
-    - [ ] Horizontal vs. vertical scaling
+2. [x] Watch Outco’s video on “How to System Design”
+3. [x] Take notes on:
+    - [x] Interview Phases
+    - [x] Phase Details
 
 ### Evening: Reflection and Review
 
