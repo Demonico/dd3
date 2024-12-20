@@ -12,18 +12,20 @@ This repository contains my practice problems for algorithms and system design, 
 - The indexes below will organize solutions by week and by topic
 
 
-## Index by Topic
+## Problem Index by Topic
 
 ### Algorithms
 #### Arrays
 - [Two Sum](week1/algo/two_sum.py)
+- [Valid Parentheses](week1/algo/valid_parentheses.py)
 
 #### System Design
 
-## Index by Week
+## Problem Index by Week
 ### Week 1
 - **Algorithms**
   - [Two Sum](week1/algo/two_sum.py) - **Array**
+  - [Valid Parentheses](week1/algo/valid_parentheses.py) - **Array** 
 - **System Design**
 
 ### Week Two

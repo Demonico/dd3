@@ -4,7 +4,7 @@ This file will hold notes from all of the various materials I will be referencin
 The idea is to organize my notes by topic. 
 However, if any topic starts to feel "too big" I will move that topic to it's own file.
 
-## Contents
+## Contents by Subject
 
 ### Problems
 - [Two Sum](#problem-two-sum)
@@ -12,6 +12,7 @@ However, if any topic starts to feel "too big" I will move that topic to it's ow
 ### Topics
 - [Arrays](#topic-arrays)
 - [Big-O Notation](#topic-big-o-notation)
+- [HashTable](#topic-hashtable)
 
 ### References
 * [Introduction to Algorithms - ItA](#introduction-to-algorithms-4th-ed)
@@ -60,11 +61,19 @@ Psuedocode
             add the value of from the map to the stack
         else
         pop the last value from the stack 
-        if the stack is empty (there is nothing to pop) or the value doesn't match the current char from s
+        if the stack is empty (pop returned nothing) or the val doesn't match the cur_char from s
             return false
     if the stack is empty, return true and false otherwise
             
 ```
+
+## Topic: Hash Table
+### CtCi sec IX: Interview Questions ch 1: Arrays and Strings
+<dfn>hash table</dfn> - a data structure that maps keys to values for high efficiency lookup
+
+Examples include:
+- Python: dictionary
+- JavaScript: Object
 
 ## Topic: Big-O Notation
 
@@ -81,6 +90,36 @@ $$
 O(g(n)) = \{ f(n): 0 \leq f(n) \leq cg(n) \forall n \geq n_0  \}
 $$
 where there exists positive constants $c$ and $n_0$
+
+## Topic: Bitwise Operators
+In Python Bitwise operators work on integers and perform operations at the bit level.
+
+### Bitwise Logical Operators
+- `&` (AND): Sets each bit to 1 if both bits are 1
+- `|` (OR): Sets each bit to 1 if at least one of the bits is 1.
+- `^` (XOR): Sets each bit to 1 if only one of the bits is 1.
+- `~` (NOT): Inverts all the bits.
+
+### Bitwise Shift Operators
+- `<<` (Left Shift):
+  - Shifts the bits of the left operand to the left by the number of places specified by the right operand.
+- `>>` (Right Shift):
+  - Shifts the bits of the left operand to the right by the number of places specified by the right operand.
+
+### Example
+```python
+a = 10  # 1010 in binary
+b = 8   # 0100 in binary
+c = 8   # 1000 in binary
+
+print(a & b)  # Output: 0 (0000 in binary)
+print(a | b)  # Output: 14 (1110 in binary)
+print(a ^ c)  # Output: 2 (0010 in binary)
+print(~c)     # Output: -9 (11110110 in binary, using 2's complement)
+print(a << 1) # Output: 20 (10100 in binary)
+print(a >> 1) # Output: 5 (0101 in binary)
+```
+
 ## References
 
 ### Introduction to Algorithms 4th Ed
