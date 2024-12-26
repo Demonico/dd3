@@ -27,6 +27,7 @@ Use the indices below to find problems by topic or by week.
 #### BFS
 
 - [LC 3286 Find a Safe Walk Through a Grid](week1/lc/3286.py)
+- [LC 1293 Shortest Path in a Grid with Obstacles Elimination](week1/lc/1293.py) #hard
 
 ### Stack
 
