@@ -3,11 +3,12 @@
 import heapq
 from typing import List
 
-from common import ExampleInput, get_4_neighbors
+from common import ExampleInput, get_4_neighbors, execution_time
 
 
 class Solution:
     @staticmethod
+    @execution_time
     def find_safe_walk(grid: List[List[int]], health: int) -> bool:
         num_rows, num_cols = len(grid), len(grid[0])
         queue = []
@@ -40,15 +41,18 @@ if __name__ == "__main__":
     tc4 = ExampleInput(grid=[[1, 1, 1, 1]], health=4, output=False)
     tc5 = ExampleInput(grid=[[1 for _ in range(50)] for _ in range(50)], health=99, output=False)
 
-    result1 = Solution().find_safe_walk(tc1.grid, tc1.health)
+    result1 = Solution.find_safe_walk(tc1.grid, tc1.health)
     print(f"result1: {result1}")
     assert result1 == tc1.output
 
-    result2 = Solution().find_safe_walk(tc2.grid, tc2.health)
-    print(f"result2: {result2}")
+    # start_time2 = time.perf_counter()
+    result2 = Solution.find_safe_walk(tc2.grid, tc2.health)
+    # end_time2 = time.perf_counter()
+    # execution_time2 = (end_time2 - start_time2) * 1000
+    # print(f"result2: {result2} execution time: {execution_time2:.6f}ms")
     assert result2 == tc2.output
 
-    result3 = Solution().find_safe_walk(tc3.grid, tc3.health)
+    result3 = Solution.find_safe_walk(tc3.grid, tc3.health)
     print(f"result3: {result3}")
     assert result3 == tc3.output
 
@@ -56,6 +60,9 @@ if __name__ == "__main__":
     print(f"result4: {result4}")
     assert result4 == tc4.output
 
-    result5 = Solution().find_safe_walk(tc5.grid, tc5.health)
-    print(f"result5: {result5}")
+    # start_time5 = time.perf_counter()
+    result5 = Solution.find_safe_walk(tc5.grid, tc5.health)
+    # end_time5 = time.perf_counter()
+    # execution_time5 = (end_time5 - start_time5) * 1000
+    # print(f"result5: {result5} execution time: {execution_time5:.6f}ms")
     assert result5 == tc5.output

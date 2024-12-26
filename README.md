@@ -24,6 +24,10 @@ Use the indices below to find problems by topic or by week.
 
 - [Two Sum](week1/lc/two_sum.py)
 
+#### BFS
+
+- [LC 3286 Find a Safe Walk Through a Grid](week1/lc/3286.py)
+
 ### Stack
 
 - [Valid Parentheses](week1/lc/valid_parentheses.py)
