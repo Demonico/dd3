@@ -45,11 +45,8 @@ if __name__ == "__main__":
     print(f"result1: {result1}")
     assert result1 == tc1.output
 
-    # start_time2 = time.perf_counter()
     result2 = Solution.find_safe_walk(tc2.grid, tc2.health)
-    # end_time2 = time.perf_counter()
-    # execution_time2 = (end_time2 - start_time2) * 1000
-    # print(f"result2: {result2} execution time: {execution_time2:.6f}ms")
+    print(f"result2: {result2}")
     assert result2 == tc2.output
 
     result3 = Solution.find_safe_walk(tc3.grid, tc3.health)
@@ -62,7 +59,5 @@ if __name__ == "__main__":
 
     # start_time5 = time.perf_counter()
     result5 = Solution.find_safe_walk(tc5.grid, tc5.health)
-    # end_time5 = time.perf_counter()
-    # execution_time5 = (end_time5 - start_time5) * 1000
-    # print(f"result5: {result5} execution time: {execution_time5:.6f}ms")
+    print(f"result5: {result5}")
     assert result5 == tc5.output
