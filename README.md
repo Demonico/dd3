@@ -27,7 +27,7 @@ Use the indices below to find problems by topic or by week.
 #### BFS
 
 - [LC 3286 Find a Safe Walk Through a Grid](week1/lc/3286.py)
-- [LC 1293 Shortest Path in a Grid with Obstacles Elimination](week1/lc/1293.py) #hard
+- [LC 1293 Shortest Path in a Grid with Obstacles Elimination](week1/lc/1293.py) **\#hard**
 
 ### Stack
 
@@ -44,9 +44,11 @@ Use the indices below to find problems by topic or by week.
 ### Week 1
 
 - **Algorithms**
-    - [Two Sum](week1/lc/two_sum.py) - **Array**
-    - [Valid Parentheses](week1/lc/valid_parentheses.py) - **Stack**
-    - [Is Unique](week1/ctci/is_unique/question.md) **String**
+    - [Two Sum](week1/lc/two_sum.py) - **\#Array**
+    - [Valid Parentheses](week1/lc/valid_parentheses.py) - **\#Stack**
+    - [Is Unique](week1/ctci/is_unique/question.md) **\#String**
+    - [LC 3286 Find a Safe Walk Through a Grid](week1/lc/3286.py) **\#BFS**
+    - [LC 1293 Shortest Path in a Grid with Obstacles Elimination](week1/lc/1293.py) **\#hard \#BFS**
 
 - **System Design**
 - [Lecture 1](notes/sd_lecture_notes.md#lecture-1-how-to-system-design)
