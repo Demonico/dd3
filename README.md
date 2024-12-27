@@ -29,6 +29,11 @@ Use the indices below to find problems by topic or by week.
 - [LC 3286 Find a Safe Walk Through a Grid](week1/lc/3286.py)
 - [LC 1293 Shortest Path in a Grid with Obstacles Elimination](week1/lc/1293.py) **\#hard**
 
+#### Dynamit Programming
+
+- [LC 63 Unique Paths II](week2/lc/unique_paths_2.py)
+- [LC 740. Delete and Earn](week2/lc/delete_and_earn.py)
+
 ### Stack
 
 - [Valid Parentheses](week1/lc/valid_parentheses.py)
@@ -49,6 +54,8 @@ Use the indices below to find problems by topic or by week.
     - [Is Unique](week1/ctci/is_unique/question.md) **\#String**
     - [LC 3286 Find a Safe Walk Through a Grid](week1/lc/3286.py) **\#BFS**
     - [LC 1293 Shortest Path in a Grid with Obstacles Elimination](week1/lc/1293.py) **\#hard \#BFS**
+    - [LC 63 Unique Paths II](week2/lc/unique_paths_2.py) **\#Dynaic Programming**
+    - [LC 740. Delete and Earn](week2/lc/delete_and_earn.py) **\#Dynaic Programming**
 
 - **System Design**
 - [Lecture 1](notes/sd_lecture_notes.md#lecture-1-how-to-system-design)

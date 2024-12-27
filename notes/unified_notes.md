@@ -8,7 +8,7 @@ However, if any topic starts to feel "too big" I will move that topic to it's ow
 
 ### Problems
 
-- [Two Sum](#problem-two-sum)
+See [problems](./problems.md)
 
 ### Topics
 
